@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background: url("./Images/bg-pattern-top.svg"), url("./Images/bg-pattern-bottom.svg");
+    background-color: hsl(185, 75%, 39%);
+    background-repeat: no-repeat;
+    background-position: -52% -470px, 140% 396px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main {
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+.object1{
+    object-fit:cover;
+    object-position: right bottom;
+}
+
+.card {
+    max-width: 25rem;
+    margin: 0 auto;
+    margin-top: 8rem;
+    background-color: #fff;
+    border-radius: 8px;;
+}
+
+.img-container {
+    background: url("./Images/bg-pattern-card.svg");
+    height: 25vh;
+    border-radius: 8px 8px 0 0;
+}
+
+.profile-box {
+    height: 7.5rem;
+    width: 7.5rem;
+    background: url("./Images/image-victor.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    margin-top: -4rem;
+    margin-left: 8.6rem;
+}
+
+#name {
+    color: hsl(229, 23%, 23%);
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 1.5rem 8rem 1rem 8.5rem;
+}
+
+#age {
+    color: hsl(227, 10%, 46%);
+    margin-left: .8rem;
+    font-weight: 400;
+}
+
+.city{
+    font-size: 1rem;
+    margin: 0 0rem 2rem 11rem;
+    color: hsl(227, 10%, 46%);
+}
+
+.border{
+    border: 1px solid rgb(241, 238, 238);
+}
+
+.stats{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+
+}
+
+.stats li{
+    list-style: none;
+    margin: 1.5rem 0;
+}
+
+.numbers{
+    font-size: 1.1rem;
+    font-weight: bold;
+    color:  hsl(229, 23%, 23%);
+}
+
+.text{
+    font-size: .7rem;
+    color:  hsl(227, 10%, 46%);
+    margin-top: .3rem;
+}
+
+@media(max-width: 786px) {
+
+    .card{
+        max-width: 24rem;
+        margin-right: 2rem;
+    }
+
+    #name{
+        width: 10rem;
+    }
+
+}
