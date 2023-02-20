@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.main {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 59rem;
+    margin: 0 auto;
+    margin-top: 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    padding: 50px 47px;
+    width: 33.3%;
+    border-radius: 10px 0 0 10px;
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+    padding: 50px 43px;
+    width: 33.3%;
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    padding: 50px 40px;
+    width: 33.3%;
+    border-radius: 0 10px 10px 0;
+}
+
+.logo {
+    margin-bottom: 1.6rem;
+}
+
+.heading {
+    font-size: 2.2rem;
+    color: hsl(0, 0%, 95%);
+    font-weight: 700;
+    margin-bottom: 1.6rem;
+    font-family: 'Big Shoulders Display', cursive
+}
+
+.text {
+    line-height: 25px;
+    padding-right: 2rem;
+    margin-bottom: 1.6rem;
+}
+
+.btn {
+    width: 8rem;
+    padding: 13px;
+    margin-top: 3rem;
+    border-radius: 40px;
+    font-size: 13px;
+    font-weight: 600;
+    color: hsla(0, 0%, 100%, 0.75);
+    border: 3px solid hsl(0, 0%, 95%);
+    transition: 0.3s ease-in-out;
+}
+
+.btn-one {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.btn-one:hover {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+
+.btn-two {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.btn-two:hover {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-three {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.btn-three:hover {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+@media (max-width: 956px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 4rem;
+    }
+
+    .sedans {
+        min-width: 400px;
+        border-radius: 10px 10px 0 0;
+        background-image: linear-gradient(180deg, hsl(31, 77%, 52%), hsl(184, 100%, 22%));
+    }
+
+    .suvs {
+        min-width: 400px;
+        background-image: linear-gradient(180deg, hsl(184, 100%, 22%), hsl(179, 100%, 13%));
+    }
+
+    .luxury {
+        min-width: 400px;
+        margin-bottom: 4rem;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .btn {
+        margin-top: 20px;
+    }
+}
