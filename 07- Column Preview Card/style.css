@@ -11,6 +11,7 @@ body {
     color: hsla(0, 0%, 100%, 0.75);
     font-size: 14px;
     font-weight: 400;
+    background-color: hsl(0, 0%, 95%);
 }
 
 .main {
@@ -72,41 +73,43 @@ body {
     border-radius: 40px;
     font-size: 13px;
     font-weight: 600;
-    color: hsla(0, 0%, 100%, 0.75);
     border: 3px solid hsl(0, 0%, 95%);
     transition: 0.3s ease-in-out;
 }
 
 .btn-one {
-    background-color: hsl(31, 77%, 52%);
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
 }
 
 .btn-one:hover {
-    background-color: hsl(0, 0%, 95%);
-    color: hsl(31, 77%, 52%);
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
     cursor: pointer;
     transition: 0.3s ease-in-out;
 }
 
 
 .btn-two {
-    background-color: hsl(184, 100%, 22%);
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
 }
 
 .btn-two:hover {
-    background-color: hsl(0, 0%, 95%);
-    color: hsl(184, 100%, 22%);
+    background-color:hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
     cursor: pointer;
     transition: 0.3s ease-in-out;
 }
 
 .btn-three {
-    background-color: hsl(179, 100%, 13%);
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
 }
 
 .btn-three:hover {
-    background-color: hsl(0, 0%, 95%);
-    color: hsl(179, 100%, 13%);
+    background-color:hsl(179, 100%, 13%);
+    color:  hsl(0, 0%, 95%);
     cursor: pointer;
     transition: 0.3s ease-in-out;
 }
