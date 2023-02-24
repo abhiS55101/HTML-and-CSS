@@ -156,3 +156,33 @@ main{
     background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     cursor: pointer;
 }
+
+@media (max-width: 976px) {
+    main{
+        margin: 0;
+        height: 100vh;
+        width: 30rem;
+    }
+   .main-container{
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+   }
+
+   .section-left{
+    width: 32rem;
+    border-radius: 0 0 30px 30px;
+   }
+
+   .section-left{
+    width: 30rem;
+   }
+
+   .summary-box{
+    width: 25rem;
+   }
+
+   .btn{
+    width: 25rem;
+   }
+}
