@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    height: 100vh;
+    background-color: #fff;
+    line-height: 1.6;
+    /* background-image: url("./Images/bg-header-desktop.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.container{
+    max-width: 70rem;
+    margin: 1rem auto;
+}
+
+.header-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.header-logo{
+    width: 8rem;
+    margin-top: 5rem;
+}
+
+.main-heading{
+    font-size: 2.5rem;
+    color: hsl(210, 10%, 33%);
+}
+
+.text{
+    font-size: 1.1rem;
+    color: hsl(201, 11%, 66%);
+    padding: 0 14rem;
+    text-align: center;
+}
+
+.header-section a{
+    text-decoration: none;
+    cursor: default;
+}
+
+.btn{
+    height: 2.7rem;
+    width: 11rem;
+    border: none;
+    border-radius: 3rem;
+    font-size: 1rem;
+    color: #fff;
+    margin: 1rem;
+}
+
+.btn-1{
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 0 8px 8px -6px hsl(171, 66%, 44%);
+    border-bottom: 3px solid hsl(171, 66%, 35%);
+    transition: 0.3s all;
+}
+
+.btn-1:hover{
+    transform: scale(1.08);
+    transition: 0.3s all;
+    cursor: pointer;
+}
+
+.btn-2{
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 0 8px 8px -6px hsl(233, 100%, 69%);
+    border-bottom: 3px solid hsl(233, 100%, 60%);
+    transition: 0.3s all;
+}
+
+.btn-2:hover{
+    transform: scale(1.08);
+    transition: 0.3s all;
+    cursor: pointer;
+}
+
+.section-one{
+    margin-top: 7rem;
+}
+
+.heading{
+    text-align: center;
+    font-size: 2rem;
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 1rem;
+}
+
+.section-two{
+    display: flex;
+    margin-top: 5rem;
+}
+
+.img-container img{
+    margin-left: -15rem;
+}
+
+.details{
+    margin: 1rem;
+    padding: 2rem 12rem 0rem 1rem;
+    line-height: 2;
+
+}
+
+.services-heading{
+    font-size: 1.3rem;
+    color: hsl(210, 10%, 33%);
+}
+
+.services-detail{
+    font-size: 0.9rem;
+    color: hsl(201, 11%, 66%);
+}
+
+.services{
+    margin: 2rem 0 0 4rem;
+}
+
+.section-three{
+    margin-top: 6rem;
+}
+
+.img-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+}
+
+.tools{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.tools-container{
+    width: 33.3%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tools-container img{
+    margin-bottom: 2rem;
+}
+
+.tools-heading{
+    font-size: 1.3rem;
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 1rem;
+}
+
+.tools-detail{
+    font-size: 0.9rem;
+    color: hsl(201, 11%, 66%);
+    text-align: center;
+}
+
+.one, .two, .three{
+    padding: 0 2rem;
+}
+
+.section-five{
+    margin: 7rem 0 8rem 0;
+}
+
+.brands{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 2rem;
+}
+
+.brands img{
+    width: 8rem;
+}
+
+.footer{
+    background-color: hsl(201, 11%, 90%);
+    margin-top: 7rem;
+}
+
+.footer-section{
+    display: flex;
+}
+
+.footer-container{
+    max-width: 70rem;
+    margin: 0rem auto;
+}
+
+.left{
+    width: 55%;
+    display: flex;
+    align-items: center;
+}
+
+.left img{
+    height: 3.5rem;
+    width: 3.5rem;
+    margin-right: 1.2rem;
+}
+
+.menu{
+    display: flex;
+}
+.menu-item{
+    font-size: 1rem;
+    color: hsl(210, 10%, 33%);
+    margin: 2rem;
+}
+.menu-item p{
+    margin: 0.5rem;
+}
+
+.menu-item p:hover{
+    color: hsl(171, 66%, 35%);
+}
+
+.right{
+    width: 45%;
+}
+
+.right ul{
+    list-style: none;
+    display: flex;
+    margin-left: 22rem;
+}
+
+.icon{
+    color: hsl(210, 10%, 33%);
+    font-size: 1.5rem;
+    margin: 3rem 1rem;
+}
+
+.icon:hover{
+    color: hsl(171, 66%, 35%);
+}
+
+/* Media Queries*/
+
+@media (max-width: 976px) {
+    .container{
+        min-width: 23rem;
+        margin: 1rem;
+    }
+
+    .main-heading{
+        font-size: 2.2rem;
+        text-align: center;
+    }
+
+    .text{
+        padding: 0.9rem;
+    }
+
+    .btn{
+        height: 3.5rem;
+        width: 21rem;
+        font-size: 1.2rem;
+    }
+
+    .section-two{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5rem;
+    }
+
+    .img-container img{
+        margin-left: 1.6rem;
+        width: 20rem;
+    }
+
+    .details{
+        text-align: center;
+        padding: 0.2rem;
+    }
+
+    .services{
+        margin: 1rem;
+    }
+
+    .services-heading{
+        font-size: 1.5rem;
+        margin-top: 3rem;
+    }
+
+    .services-detail{
+        font-size: 1rem;
+    }
+
+    .img-section{
+        margin-top: 3rem;
+    }
+
+    .img-section img{
+        width: 20rem;
+    }
+
+    .section-four{
+        margin-top: 4rem;
+    }
+
+    .heading{
+        font-size: 1.8rem;
+    }
+
+    .tools{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tools-container{
+        width: 23rem;
+    }
+
+    .tools-heading{
+        font-size: 1.6rem;
+    }
+
+    .tools-detail{
+        font-size: 1rem;
+        padding: 0 1.5rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .section-five{
+        margin: 2rem 0;
+    }
+
+
+    .brands{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .brands img{
+        margin: 3rem;
+    }
+
+    .head{
+        margin: 4rem 0 -2rem 0;
+        padding: 0 2rem;
+    }
+
+    .text-2{
+        padding: 1rem;
+    }
+
+    .footer{
+        min-width: 23rem;
+    }
+
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left{
+        width: 23rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left img{
+        margin: 3rem;
+    }
+
+    .menu{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu-item{
+        font-size: 1.2rem;
+        margin: 0;
+    }
+
+    .right ul{
+        margin-left: 6.5rem;
+    }
+
+
+
+
+
+
+
+
+    
+}
